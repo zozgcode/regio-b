@@ -193,7 +193,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'February 11, 2025',
         description: 'Transfer from State Board Programming Grant',
         status: 'Success',
-        amount_usd: 30000.00
+        amount_usd: 20000.00
       },
       {
         dateTime: 'February 11, 2025',
