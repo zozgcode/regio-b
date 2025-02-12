@@ -47,11 +47,12 @@ export default function Transactions() {
                   <HiArrowDown className={`${transaction.amount_usd < 0 ? 'rotate-180' : ''}`} />
                 </button>
                 <div className="flex flex-col gap-1 justify-between">
-                  <span className="text-[14px] font-[600] truncate max-w-[200px] sm:max-w-full overflow-hidden">{transaction.description}</span>
+                  <span className="text-[14px] font-[600] w-[250px] whitespace-normal sm:max-w-full">{transaction.description}</span>
+                  {/* <span className="text-[14px] font-[600] truncate max-w-[200px] sm:max-w-full overflow-hidden">{transaction.description}</span> */}
                   <span className="text-[10px] font-medium">{transaction.dateTime}</span>
                 </div>
               </div>
-              <div className="flex flex-col gap-1 justify-between text-right">
+              <div className="flex flex-col gap-1 text-right">
                 <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? 'text-red-800' : ''}`}>{formatCurrency(transaction.amount_usd)}</span>
                 {/* <span className={`text-[14px] font-[600] ${transaction.amount_usd < 0 ? "text-red-600" : ""}`}>{hideBalance ? "*****" : `${formatCurrency(transaction.amount_usd)}`}</span> */}
                 <span className={`text-[10px] font-medium ${transaction.status === 'Pending' ? 'text-yellow-600' : 'text-green-600'}`}>{transaction.status}</span>

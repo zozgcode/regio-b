@@ -131,8 +131,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-****',
       email: 'r@gmail.com',
       createdOn: '2/12/2025', // m/d/y
-      username: 'r',
-      password: 'r'
+      username: 'robertTell',
+      password: 'RobertT123!'
     },
     bank_details: {
       account_type: 'Checking',
@@ -148,11 +148,59 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
-        dateTime: 'February 7, 2025',
+        dateTime: 'February 12, 2025',
         description: 'Transfer from State Board Programming Grant',
         status: 'Success',
-        amount_usd: 262000.00
+        amount_usd: 50000.00
       },
+      {
+        dateTime: 'February 12, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 50000.00
+      },
+      {
+        dateTime: 'February 12, 2025',
+        description: 'Debit to Sue Thompson',
+        status: 'Success',
+        amount_usd: -90000.00
+      },
+      {
+        dateTime: 'February 12, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 50000.00
+      },
+      {
+        dateTime: 'February 11, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 50000.00
+      },
+      {
+        dateTime: 'February 11, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 50000.00
+      },
+      {
+        dateTime: 'February 11, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 50000.00
+      },
+      {
+        dateTime: 'February 11, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 30000.00
+      },
+      {
+        dateTime: 'February 11, 2025',
+        description: 'Transfer from State Board Programming Grant',
+        status: 'Success',
+        amount_usd: 2000.00
+      }
     ]
   },
 ];

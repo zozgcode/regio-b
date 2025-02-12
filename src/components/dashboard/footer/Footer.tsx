@@ -9,7 +9,7 @@ export default function Footer() {
   const pathname = usePathname();
 
   return (
-    <footer className="bottom-0 absolute left-0 w-full bg-gray-100">
+    <footer className="bottom-0 fixed left-0 w-full bg-gray-100">
       <div className="w-[90%] mx-auto flex items-center justify-between py-[10px] gap-[20px]">
         {fMenuLink.map((link, i) => (
           <Link
